@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculator.CalculatorTest" tests="66" skipped="0" failures="0" errors="0" timestamp="2024-10-26T15:36:00" hostname="PL_MGAPINSKA" time="0.168">
+  <properties/>
+  <testcase name="testMultiplyWithOverflowCheckNullString()" classname="calculator.CalculatorTest" time="0.024"/>
+  <testcase name="testMultiplyMaxValueByTwoWithOverflowCheck()" classname="calculator.CalculatorTest" time="0.003"/>
+  <testcase name="testDivideByZeroWithString()" classname="calculator.CalculatorTest" time="0.005"/>
+  <testcase name="testSubtractBeyondMinValueWithOverflowCheck()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtractWithOverflowCheckNullString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtractWithNullString()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testAddWithNaN()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testAddNegativeValue()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testResetMemory()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testDivideByZero()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testResetClearsErrorFlag()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testMultiplyWithValidString()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testAdditionOverflow()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testReset()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testAddWithNullString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testDivideTwoByTwo()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testAddWithOverflowCheckInvalidString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSetStateWithValidString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testStoreInMemory()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSetStateWithNullString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testAddResultingInInfinity()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testAddWithInvalidString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testAddMemoryToState()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiplyWithOverflowCheckOverflowWithString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testAdditionNoOverflow()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSetStateWithNaN()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiplicationOverflow()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testDivideResultingInInfinity()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiplyByZero()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiplyWithNullString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiplyWithInvalidString()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testSubtractResultingInNegativeInfinity()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testSubtractWithInvalidString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiplyResultingInInfinity()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testErrorStatusRemainsAfterValidOperation()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testAddWithValidString()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testResetMemoryWhileError()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testAddWithOverflowCheckValidString()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testGetValFromMemory()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtractNoOverflow()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtractThreeMinusOne()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testAddWithOverflowCheckNullString()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testMultiplyOneByTwo()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testInitialState()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testGetValFromMemoryDoesNotGetWhenError()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testAddWithOverflowCheckOverflowWithString()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testDivideWithInvalidString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiplyWithOverflowCheckInvalidString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testDivideWithNullString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testDivideWithValidString()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testMultiplicationNoOverflow()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testMultiplyWithInfinity()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testAddOne()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testSubtractToZero()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testDivideWithInfinity()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtractOverflow()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtractMemoryFromState()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtractNegativeResult()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSetStateWithInvalidString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testStoreInMemoryDoesNotStoreWhenError()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiplyWithOverflowCheckValidString()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testSubtractWithOverflowCheckUnderflowWithString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtractWithValidString()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testDivideZeroByZero()" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testSubtractWithOverflowCheckValidString()" classname="calculator.CalculatorTest" time="0.0"/>
+  <testcase name="testSubtractWithOverflowCheckInvalidString()" classname="calculator.CalculatorTest" time="0.001"/>
+  <system-out><![CDATA[Error: Division by zero is not allowed.
+Error: Division by zero is not allowed.
+Error: Division by zero is not allowed.
+Overflow during division
+Error: Division by zero is not allowed.
+Error: Division by zero is not allowed.
+Error: Division by zero is not allowed.
+Error: Division by zero is not allowed.
+Error: Division by zero is not allowed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
